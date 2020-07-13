@@ -4,6 +4,7 @@
 def checkArmstrong(num):
         # Your code goes here
         temp = num
+        sum =0
         while(temp>0):
                 d= temp%10
                 sum =sum+(d**3)
